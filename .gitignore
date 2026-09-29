@@ -1,0 +1,9 @@
+# LabVIEW generated/local files
+*.aliases
+*.lvlps
+*.log
+*.tmp
+*.bak
+~$*
+Thumbs.db
+.DS_Store
