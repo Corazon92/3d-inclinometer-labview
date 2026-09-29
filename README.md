@@ -57,9 +57,16 @@ Le rapport recommande :
 - une meilleure prise en compte des sensibilités différentes des axes ;
 - une analyse des sources d'erreur expérimentale.
 
-## Artefacts
+## Artefacts récupérés
 
-Le compte rendu confirme le fonctionnement du VI final, mais le fichier binaire `Inclino3D_final.vi` n'a pas été retrouvé avec une correspondance suffisamment sûre lors de la récupération ciblée. Il n'est donc pas remplacé par un faux VI.
+Le VI final original a été retrouvé avec les captures historiques de ses principales étapes :
+
+- [`labview/Inclino3D_final.vi`](labview/Inclino3D_final.vi) — instrument virtuel LabVIEW final ;
+- [`docs/images/first-vi.png`](docs/images/first-vi.png) — première version ;
+- [`docs/images/second-vi.png`](docs/images/second-vi.png) — seconde version ;
+- [`docs/images/final-3d-vi.png`](docs/images/final-3d-vi.png) — visualisation 3D finale.
+
+Empreinte SHA-256 du VI récupéré : `EFF8C679433F450958712C4A676CD8CB813A2F08FA9B1B329F58565E24BBAB83`.
 
 ---
 
@@ -77,4 +84,4 @@ The documented equations are:
 
 X/Y calibration used 0.214 V/g while Z used 0.207 V/g. Physical checks were performed at 30° and 60°. A **7° roll error at 60°** was observed and is reported transparently as an experimental limitation.
 
-The final VI is documented in the archived report, but the matching binary VI could not be recovered with enough certainty to publish it as the original.
+The original final VI and its historical interface screenshots have now been recovered and are published in `labview/` and `docs/images/`.
